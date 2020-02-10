@@ -18,6 +18,7 @@ dependencies {
             'com.amazonaws:aws-lambda-java-events:2.2.7'
     )
     compile group: 'com.amazonaws', name: 'aws-java-sdk-dynamodb', version: '1.11.716'
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-kms', version: '1.9.6'
     annotationProcessor("org.projectlombok:lombok:1.18.4")
     compile("org.projectlombok:lombok:1.18.4")
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
